@@ -1,20 +1,16 @@
 This is an extension of the [MTG-JSON](https://github.com/mtgjson/mtgjson) project. 
-Last Updated May 2016 (up to and including BFZ block)
 
+This program was last updated in May 2016 (up to and including BFZ block)
 
-
-This python scripts turns a decklist of this form:
+it turns a decklist of this form:
 
 InputDeckList.txt
 ```
 4 Island
-4 Forest
-4 Swamp
-4 CardThatDoesNotExist
+4 Snapcaster Mage
 4 Polluted Delta
 ```
 into a CSV output with columns of:
-
 
 ```name, manacost, cmc, coloridentity, artist, number, type, text, printings, 
 flavor, layout, multiverseid, power, toughness, rarity, subtypes, types```
